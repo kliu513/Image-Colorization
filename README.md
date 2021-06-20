@@ -14,4 +14,4 @@ To change the root directory of datasets, modify `dataset.py` on Line 8 and 34. 
 1. The model is mainly based on PatchGan. A classifier and Convolution Block Attention Module (CBAM) are incorporated to improve the model's performance.
 2. For this model, pictures are represented in LAB color space. There are two main reasons why we utilize LAB instead of RGB: Given that the "L" channel can be used as input, the model only needs to generate and concatenate values in the "A" and "B" channels; on the other hand, it will be easier for the model to colorize images of varying size, since the rescaled "A" and "B" channels can be concatenated using the original "L" channel with no distortion in pictures.
 
-Link to the [Paper](https://github.com/kliu513/Image-Colorization/blob/94dda2c5c1f7565cc84189934a11fb8c82182c18/Paper.pdf)
+### Link to the [Paper](https://github.com/kliu513/Image-Colorization/blob/94dda2c5c1f7565cc84189934a11fb8c82182c18/Paper.pdf)
